@@ -1,0 +1,119 @@
+ main {
+   .main-container {
+     #painter-intro {
+       padding: $centratura;
+       .intro-container {
+         background-image: url("../imgs/painteressentials-7.jpg");
+         background-size: cover;
+         display: flex;
+         justify-content: space-between;
+         .firma-uno {
+           display: flex;
+           justify-content: flex-end;
+           flex-direction: column;
+         }
+         .product-info {
+           // color: $cl_primary;
+           h2 {
+             font-size: 2em;
+           }
+           h3 {
+             font-size: 1.5em;
+
+             margin-top: 20px;
+             margin-bottom: 10px;
+           }
+           li {
+             display: block;
+             margin-bottom: 0.7em;
+           }
+           .download-trial {
+             background-color: lightgrey;
+             display: inline-block;
+             p {
+               font-weight: bold;
+             }
+             div {
+               display: inline-block;
+             }
+           }
+         }
+         .sale {
+           background-color: black;
+           .discount {
+             color: $cl_primary;
+             background-color: #cc397f;
+             display: inline-block;
+
+             margin-top: 10px;
+             margin-left: 15px;
+             padding: 5px;
+           }
+           .old-price {
+             color: lightgrey;
+             text-decoration: line-through;
+
+             margin-top: 10px;
+             margin-left: 15px;
+
+             font-size: 1.3em;
+           }
+           .new-price {
+             color: $cl_primary;
+             font-size: 1.6em;
+
+             margin-left: 15px;
+           }
+           .download {
+             color: lightgrey;
+
+             margin-left: 15px;
+             margin-top: 10px;
+           }
+           .buy-now {
+             background-color: #28acff;
+             display: inline-block;
+
+             margin-left: 15px;
+             margin-top: 10px;
+             padding: 8px 25px;
+
+             color: $cl_primary;
+           }
+           .customer-sat {
+             background-color: white;
+             margin: 20px 15px;
+             width: 80%;
+             div {
+               margin-left: 15px;
+               font-weight: bold;
+             }
+             p {
+               padding: 10px 15px;
+               width: 95%;
+               span {
+                 color: #cc397f;
+                 font-weight: bold;
+               }
+             }
+             a {
+               margin-left: 15px;
+               text-decoration: none;
+               color: #28acff;
+             }
+           }
+         }
+       }
+     }
+     #beginner-guide {
+       padding: $centratura;
+       background-color: #e6e6e6;
+       li {
+         padding: 20px 20px;
+       }
+       li:hover {
+         background-color: white;
+       }
+     }
+   }
+ }

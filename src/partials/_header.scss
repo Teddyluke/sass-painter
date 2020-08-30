@@ -1,0 +1,31 @@
+header {
+  padding: $centratura;
+
+  background-color: $bg_secondary;
+  color: grey;
+
+  .top-side-header {
+    padding-top: 10px;
+    text-align: right;
+    li {
+      a {
+        color: grey;
+        padding-left: 15px;
+      }
+      select {
+          margin-left: 15px;
+      }
+    }
+  }
+  .bot-side-header{
+    display: flex;
+    align-items: center;
+    #logo {
+      padding: 10px;
+    }
+    a {
+      color: $cl_primary;
+      padding: 20px;
+    }
+  }
+}
