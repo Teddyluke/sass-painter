@@ -44,19 +44,31 @@ header .bot-side-header a {
 
 main .main-container #painter-intro {
   padding: 0 5%;
+  background-image: url("imgs/painteressentials-7.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 450px;
 }
 main .main-container #painter-intro .intro-container {
-  background-image: url("../imgs/painteressentials-7.jpg");
-  background-size: cover;
+  padding-top: 20px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
 main .main-container #painter-intro .intro-container .firma-uno {
+  width: 25%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  color: white;
+  font-size: 0.7em;
+  padding-bottom: 20px;
+}
+main .main-container #painter-intro .intro-container .product-info {
+  color: white;
 }
 main .main-container #painter-intro .intro-container .product-info h2 {
+  padding-top: 30px;
   font-size: 2em;
 }
 main .main-container #painter-intro .intro-container .product-info h3 {
@@ -68,9 +80,14 @@ main .main-container #painter-intro .intro-container .product-info li {
   display: block;
   margin-bottom: 0.7em;
 }
+main .main-container #painter-intro .intro-container .product-info li span {
+  color: grey;
+}
 main .main-container #painter-intro .intro-container .product-info .download-trial {
-  background-color: lightgrey;
+  background-color: #5b5c5a;
   display: inline-block;
+  padding: 5px 10px;
+  margin-top: 30px;
 }
 main .main-container #painter-intro .intro-container .product-info .download-trial p {
   font-weight: bold;
@@ -80,6 +97,7 @@ main .main-container #painter-intro .intro-container .product-info .download-tri
 }
 main .main-container #painter-intro .intro-container .sale {
   background-color: black;
+  width: 32%;
 }
 main .main-container #painter-intro .intro-container .sale .discount {
   color: white;
