@@ -120,14 +120,59 @@
          }
        }
      }
-     #beginner-guide {
+     #main-navbar {
        padding: $centratura;
+       position: sticky;
+       height: 60px;
+       top:0px;
+       z-index: 29;
        background-color: #e6e6e6;
        li {
          padding: 20px 20px;
        }
        li:hover {
          background-color: white;
+       }
+     }
+     #beginners_guide {
+       background-image: url("imgs/intro.jpg");
+       background-color: #101010;
+       background-repeat: no-repeat;
+       background-position: center bottom;
+       position: relative;
+       text-align: center;
+
+       padding: 80px 0 60px;
+       h2 {
+         color: $cl_primary;
+         font-size: 36px;
+       }
+       p {
+         color: $cl_primary;
+         font-size: 18px;
+         margin: 1em;
+
+       }
+       .download-pdf {
+         display: flex;
+         justify-content: center;
+       }
+       .guide-img {
+         position: relative;
+         .cornice {
+           position: absolute;
+           margin: 0 auto;
+           left: 15px;
+           right: 0;
+           z-index: 9;
+           top: 17px;
+         }
+         .intro-img {
+           position: relative;
+           z-index:19;
+           bottom: -64px;
+           left: 9px;
+         }
        }
      }
    }
